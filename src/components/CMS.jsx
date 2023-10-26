@@ -9,8 +9,6 @@ import TabContent from './TabContent';
 const CMS = ({ tabsList }) => {
   tabsList.sort((a, b) => a.order - b.order);
 
-  console.log('tabsList', tabsList);
-
   return (
     <>
       <GlobalStyle />
